@@ -4,6 +4,9 @@
 node -v
 hugo version
 
+# Show parameters
+echo "Param: $1"
+
 # Build site
 hugo
 
