@@ -4,8 +4,8 @@
 node -v
 hugo version
 
-# Show parameters
-echo "Param: $1"
+# Use input parameters
+FIREBASE_DEPLOY_KEY=$1
 
 # Build site
 hugo
