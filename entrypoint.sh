@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh
 
 # Show env info
 node -v
