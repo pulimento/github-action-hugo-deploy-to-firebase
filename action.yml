@@ -1,8 +1,8 @@
-name: 'Hugo Action'
-description: 'Prepare environment for the blog'
+name: 'build-and-deploy'
+description: 'Builds the site using Hugo, and deploy it to Firebase Hosting'
 inputs:
-  firebase-token:  # id of input
-    description: 'Firebase token'
+  firebase-token:
+    description: 'Firebase token (obtained via firebase tools -- firebase login:ci)'
     required: true
 runs:
   using: 'docker'
