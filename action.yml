@@ -1,5 +1,7 @@
 name: 'build-and-deploy'
 description: 'Builds the site using Hugo, and deploy it to Firebase Hosting'
+icon: arrow-up-circle
+color: green
 inputs:
   firebase-token:
     description: 'Firebase token (obtained via firebase tools -- firebase login:ci)'
