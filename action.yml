@@ -1,4 +1,4 @@
-name: 'build-and-deploy'
+name: 'Hugo build and Firebase Deploy'
 description: 'Builds the site using Hugo, and deploy it to Firebase Hosting'
 inputs:
   firebase-token:
