@@ -1,0 +1,11 @@
+name: 'Hugo Action'
+description: 'Prepare environment for the blog'
+inputs:
+  firebase-token:  # id of input
+    description: 'Firebase token'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.firebase-token }}
