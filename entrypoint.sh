@@ -12,7 +12,7 @@ hugo
 
 # Publish to Firebase
 firebase use --token $FIREBASE_DEPLOY_KEY alias
-firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_DEPLOY_KEY
+firebase deploy -m "Trigger: $GITHUB_EVENT_NAME, commit SHA: $GITHUB_SHA" --non-interactive --token $FIREBASE_DEPLOY_KEY
 mkdir .public
 cp -r * .public
 mv .public public
