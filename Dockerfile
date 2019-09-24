@@ -7,5 +7,5 @@ LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="green"
 
 # Things to do!
-ADD entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
