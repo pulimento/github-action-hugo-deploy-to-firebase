@@ -8,4 +8,4 @@ LABEL "com.github.actions.color"="green"
 
 # Things to do!
 ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["sh", "/entrypoint.sh"]
