@@ -1,4 +1,4 @@
-FROM pulimento/hugo-firebase
+FROM pulimento/alpine-hugo-firebase
 
 # Github labels
 #LABEL "com.github.actions.name"="Hugo action"
