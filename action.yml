@@ -12,3 +12,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.firebase-token }}
+    - ${{ inputs.alias }}
